@@ -1,0 +1,8 @@
+id;movimento;lancamento;conta;tipo
+11;Entrada;Receita;Operacional;Receita
+12;Entrada;Receita;Não Operacional;Receita
+21;Saida;Custo;Operacional;Fixo
+22;Saida;Custo;Operacional;Variavel
+31;Saida;Despesa;Operacional;Fixo
+32;Saida;Despesa;Operacional;Variavel
+33;Saida;Despesa;Não Operacional;Fixo
