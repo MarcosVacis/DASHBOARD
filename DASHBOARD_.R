@@ -3,7 +3,7 @@ pacotes <- c("dplyr", "lubridate", "openxlsx", "data.table", "readr", "magrittr"
 lapply(pacotes, library, character.only = TRUE)
 
 # Diretório da pasta onde os arquivos estão
-caminho <- "C:/Users/marco/Downloads/DATASET"
+caminho <- ""
 
 # Lista os arquivos .xlsx na pasta
 arquivos <- list.files(caminho, pattern = "\\.csv$", full.names = TRUE)
@@ -97,4 +97,4 @@ Consolidado <- Consolidado %>%
 # Dashboard <- Consolidado %>% 
 #   dplyr:: select(RECEITA,Custo,Despesas,Lucro,ano, mes,conta.x,tipo.x,Receita_cliente, cliente  )
 
-write.xlsx(Consolidado, "C:/Users/marco/Downloads/Consolidado.xlsx")
+write.xlsx(Consolidado, ".xlsx")
